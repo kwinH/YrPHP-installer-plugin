@@ -1,0 +1,24 @@
+{
+  "name": "kwin/yrphp-installer-plugin",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "KwinWong",
+      "email": "KwinWong@hotmail.com",
+      "homepage": "https://github.com/kwinH",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "composer-plugin-api": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YrPHP\\Composer\\": "Composer"
+    }
+  },
+  "extra": {
+    "class": "YrPHP\\Composer\\Plugin"
+  }
+}
