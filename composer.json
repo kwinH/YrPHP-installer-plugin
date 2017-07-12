@@ -1,5 +1,5 @@
 {
-  "name": "kwin/yrphp-installer-plugin",
+  "name": "kwin/yrphp-installer",
   "type": "composer-plugin",
   "license": "MIT",
   "authors": [
