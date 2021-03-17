@@ -13,4 +13,13 @@ class Plugin implements PluginInterface
         $manager = $composer->getInstallationManager();
         $manager->addInstaller(new YrPHPFramework($io, $composer));
     }
+
+    public function deactivate(Composer $composer, IOInterface $io){
+
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+
+    }
 }
